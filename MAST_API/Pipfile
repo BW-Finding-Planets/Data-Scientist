@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+request = "*"
+flask = "*"
+gunicorn = "*"
+pandas = "*"
+numpy = "*"
+astropy = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.7"
